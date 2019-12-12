@@ -1,4 +1,4 @@
-class MinStack {
+class StackMin {
   constructor () {
     this.stack = []
   }
@@ -32,7 +32,7 @@ class MinStack {
   }
 }
 
-const stack = new MinStack()
+const stack = new StackMin()
 stack.push(5)
 console.log(stack.min())
 
